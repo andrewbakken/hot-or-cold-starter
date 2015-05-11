@@ -76,13 +76,16 @@ function getFeedback() {
        $("#feedback").text("Semi-Cool, try again!");
      }
     else if (difference >= 15 && difference < 20){
-       $("#feedback").text("Warm, try again!");
+       $("#feedback").text("Slightly Warm, try again!");
      }
     else if (difference >= 10 && difference < 15){
-       $("#feedback").text("Hot, try again!");
+       $("#feedback").text("Getting Toasty, try again!");
      }
     else if (difference >= 5 && difference < 10 ){
-       $("#feedback").text("5 ALARM HOT!, try again!");
+       $("#feedback").text("HOT, try again!");
+     }
+     else if (difference >= 1 && difference < 5 ){
+       $("#feedback").text("It Burns!, try again!");
      }
     };
 function guessCounter() {
