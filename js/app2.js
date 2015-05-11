@@ -67,7 +67,7 @@ function getFeedback() {
        $("#feedback").text("ICE ICE COLD, try again!");
      }
     else if (difference >= 40 && difference < 50){
-       $("#feedback").text("Tundra, try again!");
+       $("#feedback").text("ICE COLD, try again!");
      }
     else if (difference >= 30 && difference < 40){
        $("#feedback").text("Cold, try again!");
@@ -81,7 +81,7 @@ function getFeedback() {
     else if (difference >= 10 && difference < 15){
        $("#feedback").text("Hot, try again!");
      }
-    else if (difference >= 5){
+    else if (difference >= 5 && difference < 10 ){
        $("#feedback").text("5 ALARM HOT!, try again!");
      }
     };
